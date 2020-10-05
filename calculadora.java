@@ -9,13 +9,15 @@ package calculadoraprobabilidad;
  *
  * @author salva
  */
-public class CalculadoraProbabilidad {
+public class calculadora {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        interfaz v = new interfaz();
+        v.setVisible(true);
+        
     }
     
 }
